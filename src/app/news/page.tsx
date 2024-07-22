@@ -8,7 +8,7 @@ import React, {
 } from "react";
 import styles from "./style.module.css";
 import { New, getNews } from "@/util/postData";
-import ObserverNew from "./observer";
+import ObserverNew from "./observerNew";
 interface NewsProps {}
 /* 
   1. 渲染 posts
