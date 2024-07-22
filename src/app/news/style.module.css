@@ -1,0 +1,44 @@
+.newsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+  gap: 16px;
+  min-height: 220px;
+  max-height: 100%;
+}
+
+.card {
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  background-color: gray;
+  color: white;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading {
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: blink 1.5s linear infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    background-color: gray;
+  }
+  50% {
+    background-color: darkgray;
+  }
+}

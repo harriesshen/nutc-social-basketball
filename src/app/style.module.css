@@ -1,0 +1,15 @@
+/* :root {
+  --link-color: #810f0f;
+  --link-active-color: #fff;
+} */
+
+@value linkColor: #810f0f;
+@value linkActiveColor: #fff;
+/* 
+.linkColor {
+  color: #810f0f;
+}
+
+.linkActiveColor {
+  color: #fff;
+} */
